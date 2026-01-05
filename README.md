@@ -1,4 +1,4 @@
-# IS4010 Labs Template
+# IS4010 Course
 
 **Course**: IS4010 - AI-Enhanced Application Development
 **Institution**: University of Cincinnati, Lindner College of Business
@@ -13,21 +13,21 @@ This repository is the template for all IS4010 lab assignments. You will fork th
 ## Repository Structure
 
 ```
-is4010-labs-template/
-├── lab01/          # Week 1: Development Toolkit Setup
-├── lab02/          # Week 2: AI-Assisted Development
-├── lab03/          # Week 3: Python Basics + Testing
-├── lab04/          # Week 4: Data Structures
-├── lab05/          # Week 5: Functions and Error Handling
-├── lab06/          # Week 6: Object-Oriented Programming
-├── lab07/          # Week 7: Data and APIs
-├── lab08/          # Week 8: Python CLI Application
-├── lab09/          # Week 9: Rust Basics
-├── lab10/          # Week 10: Ownership and Borrowing
-├── lab11/          # Week 11: Structuring Code and Data
-├── lab12/          # Week 12: Generics and Traits
-├── lab13/          # Week 13: Idiomatic Rust
-├── lab14/          # Week 14: Rust CLI Application
+is4010-course/
+├── module01/          # Week 1: Development Toolkit Setup
+├── module02/          # Week 2: AI-Assisted Development
+├── module03/          # Week 3: Python Basics + Testing
+├── module04/          # Week 4: Data Structures
+├── module05/          # Week 5: Functions and Error Handling
+├── module06/          # Week 6: Object-Oriented Programming
+├── module07/          # Week 7: Data and APIs
+├── module08/          # Week 8: Python CLI Application
+├── module09/          # Week 9: Rust Basics
+├── module10/          # Week 10: Ownership and Borrowing
+├── module11/          # Week 11: Structuring Code and Data
+├── module12/          # Week 12: Generics and Traits
+├── module13/          # Week 13: Idiomatic Rust
+├── module14/          # Week 14: Rust CLI Application
 ├── resources/      # Setup guides and documentation
 │   └── SETUP_GUIDE.md  # Comprehensive installation guide
 ├── .github/        # GitHub Actions CI/CD workflows
@@ -42,7 +42,7 @@ is4010-labs-template/
 1. Click the "Fork" button in the top-right corner of this repository
 2. Choose your personal GitHub account as the destination
 3. Ensure the repository is **private**
-4. Name your fork: `is4010-[your-username]-labs` (e.g., `is4010-jdoe-labs`)
+4. Name your fork: `is4010-[your-username]-course` (e.g., `is4010-jdoe-course`)
 
 ### 2. Add Instructor as Collaborator
 
@@ -54,8 +54,8 @@ is4010-labs-template/
 ### 3. Clone Your Fork Locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/is4010-YOUR-USERNAME-labs.git
-cd is4010-YOUR-USERNAME-labs
+git clone https://github.com/YOUR-USERNAME/is4010-YOUR-USERNAME-course.git
+cd is4010-YOUR-USERNAME-course
 ```
 
 ### 4. Set Up Python Environment
@@ -98,17 +98,17 @@ Each week, you'll complete a lab assignment:
 
 ```bash
 # Navigate to lab folder
-cd lab03/
+cd module03/
 
 # Write your code
-# - Create lab03.py with your solution
-# - Create tests/test_lab03.py with tests
+# - Create module03.py with your solution
+# - Create tests/test_module03.py with tests
 
 # Run tests locally
 pytest tests/ -v
 
 # Commit your work
-git add lab03/
+git add module03/
 git commit -m "Complete Lab 03: Python Basics"
 git push origin main
 
@@ -174,7 +174,7 @@ You are **encouraged** to use AI coding assistants:
 
 **Academic Integrity Requirements**:
 - You must **understand** all code you submit
-- Document AI assistance in `lab02/` and throughout
+- Document AI assistance in `module02/` and throughout
 - The goal is **learning**, not just completion
 
 ### Testing Requirements
@@ -191,7 +191,7 @@ Starting with Lab 03, all labs require automated tests:
 **Virtual environment not activating:**
 ```bash
 # Ensure you're in the repository root
-pwd  # Should show .../is4010-YOUR-USERNAME-labs
+pwd  # Should show .../is4010-YOUR-USERNAME-course
 
 # Recreate virtual environment
 rm -rf venv
